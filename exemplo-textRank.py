@@ -5,6 +5,10 @@ import re
 
 from sklearn.metrics.pairwise import cosine_similarity
 
+# ATENÇÂO:
+# Para funcionar precisa baixar a pasta glove.6B.zip para pegar o arquivo glove.6B.100d.txt
+
+
 # PageRank
 import networkx as nx
 
