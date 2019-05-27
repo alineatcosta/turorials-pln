@@ -26,6 +26,9 @@ import skipthoughts
 
 # You would need to download pre-trained models first
 # https://github.com/jatana-research/email-summarization
+
+# mkdir skip-thoughts/models
+# wget -P ./skip-thoughts/models http://www.cs.toronto.edu/~rkiros/models/uni_skip.npz
 model = skipthoughts.load_model()
 
 encoder = skipthoughts.Encoder(model)
